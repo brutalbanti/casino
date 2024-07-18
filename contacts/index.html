@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/globals.css">
+    <link rel="stylesheet" href="../css/extra-contacts.css">
+    <link rel="stylesheet" href="../css/extra-header.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="/" class="header__logo">LOGO</a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="/" class="header__link">HOME</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="/about/" class="header__link">ABOUT US</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="/casino/" class="header__link">CASINO</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="/contacts/" class="header__link">CONTACT</a>
+                        </li>
+                    </ul>
+                    <img src="../assets/header/close.svg" alt="Close Icon" class="header__close" id="close-nav">
+                </nav>
+                <div class="header__age">
+                    <div class="header-age__content">
+                        18+
+                    </div>
+                </div>
+                <div class="header-burger" id="burger-menu">
+                    <img src="../assets/burger.svg" alt="burger-icon">
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__extra-header">
+                <div class="extra-header__container">
+                    <div class="extra-header__content">
+                        <h2 class="extra-header__title">
+                            CONTACT <span>US</span>
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <section class="page__extra-contact">
+                <div class="extra-contact__container">
+                    <div class="extra-contact__content">
+                        <form action="../send.php" class="extra-contact__form" method="POST">
+                            <div class="extra-contact__form-content">
+                                <div class="extra-contact__inputs-wrap">
+                                    <input type="text" class="extra-contact__input" placeholder="Enter your name" name="name">
+                                    <input type="text" class="extra-contact__input" placeholder="Enter your mail" name="email">
+                                </div>
+                                <textarea class="extra-contact__texterea" placeholder="Enter your Massage*" name="message"></textarea>
+                            </div>
+                            <div class="extra-contact__btn-wrap">
+                                <button class="extra-contact__btn" type="submit">Submit Request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <a href="" class="footer__logo">LOGO</a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="/" class="footer__link">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/about/" class="footer__link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/casino/" class="footer__link">
+                            Casino
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/contacts/" class="footer__link">
+                            Contact
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/disclaimer/" class="footer__link">
+                            Disclaimer
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/privacy-policy/" class="footer__link">
+                            Privacy & Policy
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="/terms-and-conditions/" class="footer__link">
+                            Terms & Conditions
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/burger.js"></script>
+</body>
+
+</html>

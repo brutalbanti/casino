@@ -1,0 +1,130 @@
+:root {
+    --font-poppins {
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.page__extra-casino {
+    padding: 120px 0;
+}
+
+.extra-casino__container {}
+
+.extra-casino__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.extra-casino__items {
+    display: flex;
+    gap: 50px;
+}
+
+.extra-casino__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: rgba(33, 33, 33, 1);
+    padding: 24px;
+    width: 440px;
+}
+
+.extra-casino__img {
+    max-width: 445px;
+    max-height: 220px;
+}
+
+.extra-casino__title {
+    font-family: var(--font-poppins);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: white;
+}
+
+.extra-casino__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;
+    color: rgba(160, 162, 164, 1);
+}
+
+.extra-casino__btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-casino__btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: rgba(253, 71, 102, 1);
+    border-radius: 50px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+@media (max-width: 1499.98px) {
+
+    /* .extra-casino__img {
+        max-width: 292px;
+        max-height: 177px;
+    } */
+    .extra-casino__item {
+        /* width: 100%; */
+    }
+    .extra-casino__items {
+        flex-wrap: wrap;
+    }
+    .extra-casino__items {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    .extra-casino__item {
+        width: calc(50% - 25px);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .extra-casino__item {
+        width: 100%;
+        align-items: center;
+    }
+    .extra-casino__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .page__extra-casino {
+        padding: 50px 0;
+    }
+
+    .extra-casino__item {
+        width: 100%;
+    }
+
+    .extra-casino__items {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .extra-casino__btn {
+        padding: 15px 20px;
+    }
+}

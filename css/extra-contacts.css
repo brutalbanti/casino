@@ -1,0 +1,76 @@
+.page__extra-contact {
+    padding: 120px 0;
+}
+
+.extra-contact__container {}
+
+.extra-contact__content {}
+
+.extra-contact__form {}
+
+.extra-contact__form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.extra-contact__inputs-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+.extra-contact__input {
+    padding: 23px 20px 23px 20px;
+    color: rgba(160, 162, 164, 1);
+    width: 50%;
+    font-weight: 400;
+    outline: none;
+}
+
+.extra-contact__texterea {
+    height: 229px;
+    padding: 23px 20px 23px 20px;
+    resize: none;
+    color: rgba(160, 162, 164, 1);
+    font-weight: 400;
+    outline: none;
+}
+
+.extra-contact__btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-contact__btn {
+    margin-top: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: rgba(253, 71, 102, 1);
+    border-radius: 50px;
+    padding: 20px 30px;
+    /* width: 186px; */
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+@media(max-width: 767.98px) {
+    .page__extra-contact {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 565.98px) {
+    .extra-contact__inputs-wrap {
+        flex-direction: column;
+    }
+
+    .extra-contact__input {
+        width: 100%;
+    }
+}
